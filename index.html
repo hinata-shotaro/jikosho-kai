@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私の最初のホームページ</title>
+    <style>
+        /* ページ全体のスタイル */
+        body {
+            background-color: #e0f7fa; /* 背景色: 薄い青色 */
+            color: #333333;           /* 文字色: 濃い灰色 */
+            font-family: "メイリオ", Meiryo, sans-serif; /* フォントの種類 */
+            line-height: 1.6;          /* 行間の設定 */
+            padding: 20px;             /* ページ全体の余白 */
+        }
+
+        /* メインの見出しのスタイル */
+        h1 {
+            text-align: center;        /* 中央揃え */
+            color: #00796b;           /* 見出しの色 (アクセントとして少し濃いめの青緑) */
+        }
+
+        /* 各セクションの見出しのスタイル */
+        h2 {
+            border-bottom: 2px solid #00796b; /* 下線 */
+            padding-bottom: 5px;          /* 下線と文字の間隔 */
+            margin-top: 30px;             /* 上の要素との間隔 */
+        }
+
+        /* プロフィール情報の段落スタイル */
+        .profile-info p {
+            margin-bottom: 10px;      /* 各情報の項目間の余白 */
+        }
+
+        /* 趣味のリストのスタイル */
+        ul {
+            list-style-type: disc;     /* リストマーカーの種類 (黒丸) */
+            padding-left: 25px;        /* リストの左側の余白（インデント） */
+        }
+
+        li {
+            margin-bottom: 8px;        /* リスト項目間の余白 */
+        }
+
+        /* ラベル部分を太字にするスタイル */
+        strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ようこそ！</h1>
+
+    <div class="profile-info">
+        <h2>基本情報</h2>
+        <p><strong>私の名前:</strong> 日向翔太郎</p>
+        <p><strong>学部学科:</strong> 理工学部応用情報工学科</p>
+    </div>
+
+    <div>
+        <h2>趣味</h2>
+        <ul>
+            <li>読書</li>
+            <li>ウィキペディア探索</li>
+            <li>辞書の改訂</li>
+            <li>漢字辞書の丸暗記</li>
+        </ul>
+    </div>
+
+</body>
+</html>
